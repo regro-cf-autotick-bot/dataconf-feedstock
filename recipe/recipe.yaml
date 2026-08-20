@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dataconf
-  version: 3.6.0
+  version: "3.7.0"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dataconf-${{ version }}.tar.gz
-  sha256: 85c662f27dbdd06664808334ef867535eda0392e560e65fc7cf47e049199cb35
+  sha256: 614b7588b43bcd29d819b24c582be5d8c67cda4d9747c81c730ae7ca79ee0eaa
 
 build:
   number: 0
